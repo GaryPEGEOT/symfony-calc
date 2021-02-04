@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}My awesome online calculator that Google wiill envy for sure.{% endblock %}</title>
+        {% block stylesheets %}
+            <script>
+                window.OPERATION_PATTERN = {{ operation_pattern }};
+            </script>
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </head>
+    <body>
+        <main class="container">
+            {% block body %}{% endblock %}
+        </main>
+    </body>
+</html>
