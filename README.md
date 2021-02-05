@@ -2,13 +2,15 @@
 
 A [Docker](https://www.docker.com/)-based installer and runtime for the [Symfony](https://symfony.com) web framework, with full [HTTP/2](https://symfony.com/doc/current/weblink.html), HTTP/3 and HTTPS support.
 
-![CI](https://github.com/dunglas/symfony-docker/workflows/CI/badge.svg)
+![CI](https://github.com/GaryPEGEOT/symfony-calc/workflows/CI/badge.svg)
 
 ## Getting Started
 
-1. If not already done, [install Docker Compose](https://docs.docker.com/compose/install/)
-2. Run `docker-compose up` (the logs will be displayed in the current shell)
-3. Open `https://localhost` in your favorite web browser and [accept the auto-generated TLS certificate](https://stackoverflow.com/a/15076602/1352334)
+### Install dependencies
+1. If not already done, install [Docker](https://www.docker.com/get-started) & [Docker Compose](https://docs.docker.com/compose/install/)
+2. Install [NodeJS](https://nodejs.org/en/download/) & [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable) 
+3. Run `make install` (the logs will be displayed in the current shell)
+4. Open `https://localhost` in your favorite web browser and [accept the auto-generated TLS certificate](https://stackoverflow.com/a/15076602/1352334)
 
 ## Features
 
